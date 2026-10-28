@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: #2e7d32;
+    font-size: 32px;
+    margin: 0;
+    text-align: left;
+}
+
+h2 {
+    color: #ff9800;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    gap: 40px
+}
+
+img {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+main section img {
+    max-width: 250px; 
+}
+
+main section:first-of-type {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+section {
+    background-color: #ffffff;
+    border: 3px solid #ff9800;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+article {
+    background-color: #fffde7;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 400px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 10px auto 20px auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+a {
+    color: #e65100; 
+    text-decoration: underline;
+}
+
+button a {
+    color: white;
+    text-decoration: none; 
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+}
